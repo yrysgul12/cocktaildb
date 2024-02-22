@@ -1,0 +1,97 @@
+.home_search{
+    width: 100%;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+}
+.home_search input{
+    width: 350px;
+    font-size: 15px;
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    border-left: none;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+.home_search button{
+    background-color: #b8b8b8;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    height: 35px;
+    border: none;
+    width: 50px;
+}
+
+
+.drink_item{
+    padding: 30px;
+
+}
+.drink_item h3 {
+    color: #fff;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    font-size: 22px;
+}
+.drink_item_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ingredient_item{
+    color: #fff;
+    padding: 30px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff; 
+}
+.ingredient_item h3{
+    text-align: center;
+}
+.ingredient_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*? random drinks */
+
+.random_drinks{
+    padding: 0 0 30px 0;
+}
+.random_content h3{
+    text-align: center;
+    color: #fff;
+    margin: 30px 0 20px 0;
+}
+
+.random_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*? random ingredients */
+.random_ingredients_title{
+    color: #fff;
+    padding: 30px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.random_ingredients_title h3{
+    text-align: center;
+    color: #fff;
+    margin: 30px 0 20px 0;
+}
+.random_ingredient{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*? alfavit */
+.alfavit h3{
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
